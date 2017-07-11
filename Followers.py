@@ -18,8 +18,8 @@ while True:
        user = next(users)
        user = next(users)
        api.create_friendship(user.screen_name)
-       time.sleep(60 + random.randint(0,60))
        print i
+       time.sleep(60 + random.randint(0,60))
    except:
        time.sleep(60*15)
        pass
