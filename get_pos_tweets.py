@@ -6,8 +6,8 @@ nltk.download('punkt')
 from nltk import word_tokenize
 import tweepy
 import re
-auth = tweepy.OAuthHandler("YJ5mxyUgJLmedR557EoeM3c1m","qZjccKWikCwQgcCoGqgcYvj0Pc3ai5ykLQVj19Q7ybFPU65Sgj")
-auth.set_access_token("753680282977525760-UGdZfSS4YdxEeH8bYc7PwLi6uMIQmuk","VutjO8k5QITPjvKtowKVr12LXrsUKsuMArVmSlXiIv0wP")
+auth = tweepy.OAuthHandler("","")
+auth.set_access_token("","")
 
 #Gets tweets under a certain hashtag and then will run them through the model and extract the tweets that are considered
 #conservative and stores them into a list to be retweeted later
